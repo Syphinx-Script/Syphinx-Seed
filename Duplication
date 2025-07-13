@@ -79,6 +79,5 @@ tween.Completed:Connect(function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Syphinx-Script/Syphinx-Seed-Duplicate/refs/heads/main/Ahmad99%20No%20Lag"))()
     
     -- Execute the second script
-    local Spawner = loadstring(game:HttpGet("https://codeberg.org/GrowAFilipino/GrowAGarden/raw/branch/main/Spawner.lua"))()
-    Spawner.Load()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NoLag-id/No-Lag-HUB/refs/heads/main/Loader/Main.lua"))()
 end)
