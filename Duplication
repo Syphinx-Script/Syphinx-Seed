@@ -15,7 +15,7 @@ frame.Parent = screenGui
 
 -- Loading message
 local textLabel = Instance.new("TextLabel")
-textLabel.Text = "**WAITING FOR SKIZE SCRIPT TO LOAD**..."
+textLabel.Text = "**WAITING FOR SYPHINX SCRIPT TO LOAD..."
 textLabel.Size = UDim2.new(1, 0, 0.1, 0)
 textLabel.Position = UDim2.new(0, 0, 0.4, 0)
 textLabel.TextScaled = true
@@ -59,7 +59,7 @@ end)
 -- Animate loading bar over 10 seconds
 local TweenService = game:GetService("TweenService")
 local goal = { Size = UDim2.new(1, 0, 1, 0) }
-local tweenInfo = TweenInfo.new(10, Enum.EasingStyle.Linear)
+local tweenInfo = TweenInfo.new(20, Enum.EasingStyle.Linear)
 local tween = TweenService:Create(barFill, tweenInfo, goal)
 tween:Play()
 
